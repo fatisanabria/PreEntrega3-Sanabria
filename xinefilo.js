@@ -16,7 +16,7 @@ peliculas.push(new Pelicula ("./img/lalaland.jpeg","La la land","Musical","Lorem
 peliculas.push(new Pelicula ("./img/westsidestory.jpg","West side story","Musical","Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, labore.", "2021", "Steven Spielberg", "imgWST"))
 peliculas.push(new Pelicula ("./img/astarisborn.jpg","A Star is Born","Musical","Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, labore.", "2018", "Bradley Cooper","imgASIB"))
 peliculas.push(new Pelicula ("./img/matilda.jpg","Matilda: The Musical","Musical","Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, labore.", "2022", "Matthew Warchus","imgMatilda"))
-peliculas.push(new Pelicula ("./img/spirited.jpg","Spirited: el espíritu de las fiestas","Musical","Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, labore.", "2022", "Sean Anders","imgSpirited"))
+peliculas.push(new Pelicula ("./img/spirited2.jpg","Spirited: el espíritu de las fiestas","Musical","Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, labore.", "2022", "Sean Anders","imgSpirited"))
 peliculas.push(new Pelicula ("./img/cloverfield.JPG","Cloverfield","Ciencia Ficcion","Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, labore.", "2008", "Matt Reeves", "imgCloverfield"))
 peliculas.push(new Pelicula ("./img/e.t.jpg","E.T el extraterrestre","Ciencia Ficcion","Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, labore.", "1982", "Steven Spielberg","imgET"))
 peliculas.push(new Pelicula ("./img/dune.jpg","Duna","Ciencia Ficcion","Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, labore.", "2021", "Denis Villeneuve","imgDuna"))
