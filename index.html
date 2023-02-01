@@ -1,0 +1,144 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>XineFilo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header class="container-fluid">
+      <div>
+        <h1 href="" class="logo">XineFilo</h1>
+      </div>      
+      <nav id="logo" class="main-nav">                
+        <a href="#logo">Home</a>
+        <a href="#movies">Peliculas</a>
+        <a href="#tvShows">Series</a>
+        <a href="#miLista">Mi lista</a>
+      </nav>
+      <nav class="sub-nav">
+        <form class="d-flex" role="search">
+          <input id="inputBusqueda" list="pelicula" name="inputBusqueda" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id="btnBusqueda" class="btn btn-outline-success bg-light" type="submit">🔎</button>
+        </form>
+      <datalist id="pelicula">
+        <option value="The Batman">
+          <option value="Uncharted">
+          <option value="Cloverfield">
+          <option value="E.T el extraterrestre">
+          <option value="Operation Finale">
+          <option value="La la land">
+          <option value="A Star is Born">
+          <option value="Matilda: The Musical">
+          <option value="Spirited: el espíritu de las fiestas">
+          <option value="Duna">
+          <option value="Everything Everywhere All At Once">
+          <option value="The Adam Project">
+          <option value="Bullet Train">
+          <option value="Top Gun Maverick">
+          <option value="Samaritan">
+          <option value="The good nurse">
+          <option value="Mr. Harrigan's Phone">
+          <option value="The Pale Blue Eye">
+          <option value="Bones and All">
+          <option value="Don't Worry Darling">
+          <option value="Umma">
+          <option value="Hellraiser">
+          <option value="El sótano">
+          <option value="Smile">
+      </datalist>   
+      </nav>      
+    </header>
+    <!-- END OF HEADER -->
+    <main>
+    <section id="cartaPelicula" class="d-none">
+      <div class="container-fluid d-flex">
+        <div>    
+            <img id="imagenPortada" src="" alt="portada" width="500px" height="auto" class="m-5 p-5">
+        </div>
+        <div>
+            <h1 id="tituloPelicula" class=" mt-5 ">TITULO PELICULA</h1>
+            <p class="informacion">Genero: <span id="infoGenero"></span></p>
+            <p class="informacion">Año: <span id="infoAño"></span></p>
+            <p class="informacion">Director: <span id="infoDirector"></span></p>
+            <p class="informacion">Sinopsis: <span id="infoSinopsis"></span></p>
+        </div>
+    </div>
+    </section>
+        <!-- MAIN CONTAINER -->
+    <section id="mainContainer" class="main-container gi-0" >
+      <div class="location" id="movies">
+          <h2 id="movies">Drama</h2>
+          <div class="box">
+            <a href="#cartaPelicula"><img id="imgOperationF" src="" alt="pelicula 1"></a>
+            <a href="#cartaPelicula"><img id="imgGoodN" src="" alt="pelicula 2"></a>
+            <a href="#cartaPelicula"><img id="imgHPhone" src="" alt="pelicula 3"></a>
+            <a href="#cartaPelicula"><img id="imgTPBE" src="" alt="pelicula 4"></a>
+            <a href="#cartaPelicula"><img id="imgBones" src="" alt="pelicula 5"></a>
+            <a href="#cartaPelicula"><img id="imgArg1985" src="" alt="pelicula 6"></a>
+          </div>
+      </div>
+      <h2 id="">Musical</h2>
+      <div class="box">
+        <a href="#cartaPelicula"><img id="imgLLL" src="" alt="pelicula 1"></a>
+        <a href="#cartaPelicula"><img id="imgWST" src="" alt="pelicula 2"></a>
+        <a href="#cartaPelicula"><img id="imgASIB" src="" alt="pelicula 3"></a>
+        <a href="#cartaPelicula"><img id="imgMatilda" src="" alt="pelicula 4"></a>
+        <a href="#cartaPelicula"><img id="imgSpirited" src="" alt="pelicula 5"></a>
+        <a href="#cartaPelicula"><img id="imgElvis" src="" alt="pelicula 6"></a>    
+      </div>
+      <h2 id="">Terror y thrillers</h2>
+      <div class="box">
+        <a href="#cartaPelicula"><img id="imgDWD" src="" alt="pelicula 1"></a>
+        <a href="#cartaPelicula"><img id="imgUmma" src="" alt="pelicula 2"></a>
+        <a href="#cartaPelicula"><img id="imgHellraiser" src="" alt="pelicula 3"></a>
+        <a href="#cartaPelicula"><img id="imgElSotano" src="" alt="pelicula 4"></a>
+        <a href="#cartaPelicula"><img id="imgSmile" src="" alt="pelicula 5"></a>
+        <a href="#cartaPelicula"><img id="imgX" src="" alt="pelicula 6"></a>               
+      </div>
+      <h2 id="">Accion y aventura</h2>
+      <div class="box">
+        <a href="#cartaPelicula"><img id="imgBatman" src="" alt="pelicula1"></a>
+        <a href="#cartaPelicula"><img id="imgUncharted" src="" alt="pelicula 2"></a>
+        <a href="#cartaPelicula"><img id="imgBulletT" src="" alt="pelicula 3"></a>
+        <a href="#cartaPelicula"><img id="imgTopGun" src="" alt="pelicula 4"></a>
+        <a href="#cartaPelicula"><img id="imgSamaritan" src="" alt="pelicula 5"></a>
+        <a href="#cartaPelicula"><img id="imgCarter" src="" alt="pelicula 6"></a>                  
+      </div>
+      <h2 id="">Ciencia Ficción y Fantasia</h2>
+      <div class="box">
+        <a href="#cartaPelicula"><img id="imgCloverfield" src="" alt="pelicula 1"></a>
+        <a href="#cartaPelicula"><img id="imgET" src="" alt="pelicula 2"></a>
+        <a href="#cartaPelicula"><img id="imgDuna" src="" alt="pelicula 3"></a>
+        <a href="#cartaPelicula"><img id="imgEEATST" src="" alt="pelicula 4"></a>
+        <a href="#cartaPelicula"><img id="imgAdamP" src="" alt="pelicula 5"></a>
+        <a href="#cartaPelicula"><img id="imgSpiderhead" src="" alt="pelicula 6"></a>           
+      </div>
+      </section>
+    </main>
+    <!-- END OF MAIN CONTAINER -->
+    <!-- FOOTER -->
+    <footer class="p-3">
+        <div class="sub-links">
+            <ul class="p-3">
+              <li><a href="">Help Center</a></li>
+              <li><a href="">Terms of Use</a></li>
+              <li><a href="">Privacy</a></li>
+              <li><a href="">Legal Notices</a></li>
+              <li><a href="">Corporate Information</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+      <p>&copy 1997-2018 XineFilo, Inc.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </div>
+  <script src="./xinefilo.js"></script>
+</body>
+</html>
+
